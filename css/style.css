@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #242635;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    margin-top: 2rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+ul a{
+    text-decoration: none;
+    color: #D1CECA;
+}
+
+.soy-diego{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+.soy{
+    display: flex;
+    flex-direction: column;
+}
+
+.soy h1{
+    font-size: 50px;
+    border-bottom: 2px solid white;
+    font-weight: 400;
+    color: white;
+}
+
+.soy h2{
+    font-size: 70px;
+    color: #34B0BE;
+}
+
+.soy p{
+    font-size: 30px;
+    color: white;
+}
+
+.exp{
+    font-display: flex;
+    flex-direction: column;
+}
+
+.exp h2{
+    color: #34B0BE;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.exp p{
+    color: white;
+    font-weight: 400;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+
+.mi-foto img{
+    margin-top: -50px;
+    margin-left: -150px;
+    height: 410px;
+    width: 450px;
+    border-radius: 300px;
+    background-color: rgb(48, 54, 71);
+}
+
+.logos-redes{
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.in{
+    background-color: #D1CECA;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.ins{
+    background-color: #D1CECA;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.tw{
+    background-color: #D1CECA;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.logos-exp{
+   display: flex; 
+   justify-content: center;
+   margin-top: -35px;
+  
+}
+
+.logos-exp div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 800px;
+    height: 180px;
+    border-radius: 10px;
+    background-color: rgb(48, 54, 71);
+    /* margin-left: 10em; */
+}
+
+.logos-exp div img{
+    width: 130px;
+    height: 130px;
+    background-color: #D1CECA;
+    border-radius: 8px;
+}
+
+.acerca-de-mi{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.acerca-de-mi h2{
+    color: #34B0BE;
+    font-size: 40px;
+}
+
+.acerca-de-mi p{
+    margin-top: 15px;
+    color: #D1CECA;
+    font-size: 21px;
+    padding: 30px;
+}
+
+.servicios{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+h2{
+    text-align: center;
+    color: #34B0BE;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.servicios h3{
+    margin-top: 15px;
+}
+
+.servicios img{
+    width: 290px;
+    height: 220px;
+    /* padding: 25px; */
+}
+
+.desarrollo{
+    height: 380px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.desarrollo p{
+    text-align: center;
+    padding: 15px;
+    color: #666665;
+    
+}
+
+.seo{
+    height: 380px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.seo p{
+    text-align: center;
+    padding: 15px;
+    color: #666665;
+    
+}
+
+.diseño{
+    height: 380px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.diseño p{
+    text-align: center;
+    padding: 15px;
+    color: #666665;    
+}
+
+.habilidades{
+    display: flex;
+    flex-direction: column;    
+    padding: 30px;
+}
+
+.habilidades h2{
+    color: #34B0BE;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.html-css3{
+    line-height: 40px;
+}
+
+.html-css3 h4{
+    color: #34B0BE;
+}
+
+.html-css3 p{
+    color: #fff;
+    width: 85%;
+    background-color: rgb(238, 117, 48);
+    border-radius: 10px;
+    padding-left: 10px;
+    font-weight: 700;
+    
+}
+
+.js{
+    line-height: 40px;
+}
+
+.js h4{
+    color: #34B0BE;
+}
+
+.js p{
+    color: #fff;
+    width: 55%;
+    background-color: rgb(231, 149, 55);
+    border-radius: 10px;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.git-github{
+    line-height: 40px;
+}
+
+.git-github h4{
+    color: #34B0BE;
+}
+
+.git-github p{
+    color: #fff;
+    width: 70%;
+    background-color: rgb(58, 74, 223);
+    border-radius: 10px;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.portafolio{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.portafolio img{
+    width: 900px;
+    height: 500px;
+}
+
+.contacto{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.contacto img{
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+footer{
+    text-align: center;
+    color: #34B0BE;
+    margin-top: 50px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 375px){
+    .portafolio{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .portafolio a img{
+        padding: 10px;
+        width: 100%;
+        height: 180px;
+    }
+
+    .servicios{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .servicios div{
+        margin-bottom: 15px;
+    }
+
+    .mi-foto img{
+        width: 300px;
+        height: 300px;
+        margin-left: 40px;
+        margin-top: 50px;
+        }
+
+    .soy-diego{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logos-redes{
+        margin-bottom: 50px;
+        margin-left: 110px;
+        
+    }
+
+    .logos-exp div img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .exp p{
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 1000px){
+    .portafolio{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .portafolio a img{
+        padding: 10px;
+    }
+    
+}
